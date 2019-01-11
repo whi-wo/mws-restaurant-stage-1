@@ -8,18 +8,10 @@ body,td,th,p{
 	line-height: 1.5;
 }
 
-
-
-
-
-html, body {
+body {
 	background-color: #fdfdfd;
 	position:relative;
-	width: 100%;
-	height: 100%;
-	margin: 0px;
-	padding: 0px;
-	overflow-x: hidden;
+	margin: 0;
 }
 ul, li {
 	font-family: Arial, Helvetica, sans-serif;
@@ -46,7 +38,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 #maincontent {
   background-color: #f3f3f3;
-  /* min-height: 100%; */
+  min-height: 100%;
 	width: 100%;
 }
 #footer {
@@ -67,6 +59,7 @@ nav {
 }
 nav h1 {
   margin: auto;
+	padding-top: 20px;
 }
 nav h1 a {
   color: #fff;
@@ -147,9 +140,9 @@ nav h1 a {
   margin: 0;
   padding: 30px 15px 60px;
   text-align: center;
-	/* display: flex;
+	display: flex;
 	flex-direction: column;
-	align-items: center; */
+	align-items: center;
 }
 #restaurants-list li {
   background-color: #fff;
@@ -164,7 +157,7 @@ nav h1 a {
 }
 #restaurants-list .restaurant-img {
   background-color: white;
-  /* display: block; */
+  display: block;
   margin: 0;
   max-width: 100%;
   min-height: 248px;
@@ -203,20 +196,16 @@ nav h1 a {
   position: fixed;
   top: 0;
   width: 100%;
-  /* z-index: 1000; */
+  z-index: 1000;
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
   height: 400px;
-  position: fixed;
-  /* right: 0; */
-  /* top: 100px; */
+  /* position: fixed; */
+  right: 0;
+  top: 100px;
   width: 100%;
-
 	}
-
-
-}
 
 .inside #map {
   background-color: #ccc;
@@ -225,7 +214,7 @@ nav h1 a {
 }
 
 .inside #footer {
-  /* bottom: 0; */
+  bottom: 0;
   position: absolute;
   width: 100%;
 }
@@ -242,7 +231,7 @@ nav h1 a {
 }
 
 #restaurant-img {
-	width: 100%;
+	width: 50%;
 }
 #restaurant-address {
   font-size: 12pt;
@@ -262,15 +251,15 @@ nav h1 a {
 }
 
 #restaurant-container, #reviews-container {
-  /* border-bottom: 1px solid #d9d9d9;
-  border-top: 1px solid #fff; */
-  /* padding: 140px 40px 30px; */
-	/* display: flex; */
-	/* flex-direction: column; */
-	/* align-items: center; */
+  border-bottom: 1px solid #d9d9d9;
+  border-top: 1px solid #fff;
+  padding: 140px 40px 30px;
+	/* display: flex;
+	flex-direction: column;
+	align-items: center; */
 }
 #reviews-container {
-  /* padding: 30px 40px 80px; */
+  padding: 30px 40px 80px;
 }
 #reviews-container h2 {
   color: #f58500;
@@ -292,7 +281,7 @@ nav h1 a {
   overflow: hidden;
   padding: 0 20px 20px;
   position: relative;
-  width: 85%;
+  width: 100%;
 }
 #reviews-list li p {
   margin: 0 0 10px;
