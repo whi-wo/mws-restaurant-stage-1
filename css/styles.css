@@ -1,6 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 
+html, body {
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
 body,td,th,p{
 	font-family: 'Sarabun', sans-serif;
 	font-size: 10pt;
@@ -214,7 +221,6 @@ nav h1 a {
 
 .inside #footer {
   bottom: 0;
-  position: absolute;
   width: 100%;
 }
 
@@ -276,7 +282,7 @@ nav h1 a {
 #reviews-list li {
   background-color: #fff;
   border: 2px solid #f3f3f3;
-  /* display: block; */
+  display: block;
   list-style-type: none;
   margin: 0 0 30px;
   overflow: hidden;
