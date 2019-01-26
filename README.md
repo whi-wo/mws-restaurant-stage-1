@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-For this **Restaurant Reviews** project, I was provided a static webpage and tasked to convert it to an accessible, responsive mobile-ready web application that performs seamlessly offline- all while maintaining its original functionality. This project is an assignment a part of the Front-End Nanodegree Degree Program provided by Udacity. 
+For this **Restaurant Reviews** project, I was provided a static webpage and tasked to convert it to an accessible, responsive mobile-ready web application that performs seamlessly offline- all while maintaining its original functionality. This project is an assignment a part of the Front-End Nanodegree Degree Program provided by Udacity.
 
 ## How to View/Set up
 
@@ -23,7 +23,7 @@ Most of the code in this project has been written to the ES6 JavaScript specific
 
 - [Leaflet.js](https://leafletjs.com/)
 - [Google Fonts](https://fonts.google.com/) - Font library
-- [Mapbox] (https://www.mapbox.com/)
+- [Mapbox](https://www.mapbox.com/)
 
 ## Contributing
 
