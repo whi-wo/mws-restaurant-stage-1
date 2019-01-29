@@ -188,6 +188,8 @@ createRestaurantHTML = (restaurant) => {
   more.innerHTML = 'View Details';
   more.href = DBHelper.urlForRestaurant(restaurant);
   more.tabIndex ="3";
+  // adding a11y to images loaded
+  more.setAttribute('aria-label', 'View details about ${restaurant.name}')
   li.append(more)
 
   return li
