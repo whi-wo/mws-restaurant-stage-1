@@ -32,4 +32,4 @@ Feedback for this project is strongly encouraged. Please submit a pull request o
 ## Acknowledgements
 
 - Udacity & Google for this incredible opportunity (and extension!)
-- Udacity FEND Program Staff and fellow classmates
+- Udacity FEND Program Staff and amazing fellow classmates
